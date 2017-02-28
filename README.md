@@ -9,14 +9,3 @@ User stories:
 2) If it does, it returns both the Unix timestamp and the natural language form of that date.
 
 3) If it does not contain a date or Unix timestamp, it returns null for those properties.
-
-Example Usage:
-
-https://timestamp-jl.herokuapp.com/December 15, 2015
-https://timestamp-jl.herokuapp.com/12 15, 2015
-https://timestamp-jl.herokuapp.com/15 dec 2015
-https://timestamp-jl.herokuapp.com/dec-15-2015
-https://timestamp-jl.herokuapp.com/1450137600
-Example Output:
-
-{ "unix":1450137600, "natural":"December 15, 2015" }
